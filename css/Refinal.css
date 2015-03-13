@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-feb-2015, 15:50:55
+    Author     : Frank
+*/
+
+body{
+    background: #f9f9f9;
+
+}
+
+
+
+div.head {
+    //position: fixed;
+    height: 50px;
+    background: #422668;
+    color: white;
+    //bottom: 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+
+div.head-left{
+    width: 30%;
+    float: left;
+    text-align: left;
+    
+}
+
+div.head-right{
+    width: 30%;
+    float: right;
+}
+
+div.head-center{
+    width: 40%;
+    float: left;
+    
+}
+
+
+div.movil{
+    width: 280px;
+    background: white;
+   
+}
+
+div.body{
+
+    background: #f9f9f9;
+}
+
+div.margen{
+    width: 290px;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    //border: 1px solid #422668;
+}
+
+div.footer {
+    position: fixed;
+    height: 50px;
+    //background: #E2F2DC;
+    background: transparent;
+    bottom: 0;
+    width: 100%;
+
+}
+
+div.input-login{
+    width: 100%;
+    
+   
+   border-top: 1px outset #EBE1FA;
+   
+   
+}
+
+a.boton-login{
+    //background: #3c3c3c;
+    background: #422668;
+    
+    color: white;
+    width: 100%;
+    
+    
+    //border-color: #422668;
+    //border: #422668;
+}
+
+ti{
+    color: #422668;
+}
+
+
+
+
+#scrolly{
+    //width: 1000px;
+    //height: 190px;
+
+    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: no-content;
+
+    margin: 0 auto;
+    white-space: nowrap
+}
+
+img.circular{
+    border-radius: 10px 10px 10px 10px;
+}
+
+img.head-img{
+    border-radius: 10px 10px 10px 10px;
+    width: 24px;
+    height: 24px;
+}
+
+input.login{
+    color: #422668;
+    font-size: large;
+    //border: #422668;
+    border-color: white;
+    background-image: url(../images/user.png);
+    background-size: 10% 80%;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+input.pass{
+    color: #422668;
+    font-size: large;
+    //border: #422668;
+    border-color: white;
+    background-image: url(../images/lock.png);
+    background-size: 10% 80%;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+
+input.text-input{
+    color: #422668;
+    font-size: large;
+    height: 40px;
+    //border: #422668;
+    border-color: white;
+    
+    
+}
+
+span.nearfuture{
+    background: #422668;
+    color: white;
+    
+}
+
+
+.mi-input::-webkit-input-placeholder { color: silver;}
+.mi-input:-moz-placeholder { color: silver; }
+.mi-input::-moz-placeholder { color: silver; }
+.mi-input:-ms-input-placeholder { color: silver; }
+
+
+
+
+
+
+
+
+
